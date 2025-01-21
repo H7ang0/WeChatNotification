@@ -1,66 +1,44 @@
-# **WeChatNotification**  
-🌟 **微信的仿灵动岛通知插件** 🌟  
+# WeChatNotification  
+✨ 微信灵动岛通知插件 ✨  
 
-适配 **非灵动岛机型** 和 **灵动岛机型**，支持 iOS 16 - iOS 18。让微信电话通知变得更加优雅，体验灵动岛的动态视觉效果！
+支持 **灵动岛机型** 和 **非灵动岛机型**，适配 iOS 16 - iOS 18。让微信电话和消息通知更加优雅，体验灵动岛的动态效果！  
 
----
+## 功能简介  
+- **灵动岛风格**：为微信电话通知提供灵动岛效果。  
+- **迷你预览模式**：通话通知更简洁，兼顾美观与实用。  
+- **非灵动岛支持**：非灵动岛设备模拟类似弹窗的视觉体验。  
+- **微信内设置**：简单设置即可启用，无需复杂操作。  
 
-## **功能特性**  
-- **灵动岛效果**：模拟灵动岛风格的通知效果，完美支持微信电话通知。  
-- **非灵动岛支持**：在非灵动岛机型上，提供类似消息弹窗和电话通知效果。  
-- **简单设置**：在微信设置中轻松开启灵动岛通知功能。  
+## 插件用途  
+本插件完全基于个人兴趣开发，仅供学习与自用。所有功能调试完成后将考虑开源！  
 
----
+## 效果预览  
+### 标准灵动岛预览  
+<img src="https://raw.githubusercontent.com/H7ang0/WeChatNotification/main/standard_dynamic_island.png" alt="标准灵动岛预览" width="50%">  
 
-## **插件预览**  
+### 迷你预览模式  
+<img src="https://raw.githubusercontent.com/H7ang0/WeChatNotification/main/mini_preview.png" alt="迷你预览模式" width="50%">  
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="https://raw.githubusercontent.com/H7ang0/WeChatNotification/main/call_effect.png" alt="电话通知效果" style="width: 48%;">
-  <img src="https://raw.githubusercontent.com/H7ang0/WeChatNotification/main/message_popup_bug.png" alt="消息弹窗效果" style="width: 48%;">
-</div>  
+### 非灵动岛机型微信通话来电预览（微信内）  
+<img src="https://raw.githubusercontent.com/H7ang0/WeChatNotification/main/non_dynamic_island.png" alt="非灵动岛机型预览" width="50%">  
 
-### **预览说明**  
-1. **左图**：电话通知效果，完整支持好友微信电话弹窗。  
-2. **右图**：非灵动岛机型消息弹窗效果（目前消息详情和好友头像无法正常显示）。  
+## 使用方法  
+1. 使用自签工具注入插件（`WeChatNotification.dylib`）到微信中。  
+2. 打开微信，进入 **设置**。  
+3. 选择 **灵动岛通知** 菜单项，开启通知功能。  
 
----
-
-## **使用教程**  
-1. 下载并通过自签名工具签名注入 `WeChatNotification.dylib` 到微信中。  
-2. 打开微信，进入设置。  
-3. 选择 **灵动岛通知** 菜单项。  
-4. 点击 **开启灵动岛通知** 开关，完成设置！  
-
----
-
-## **已知问题**  
-- **消息弹窗**：  
-  - 非灵动岛机型的消息弹窗目前无法显示 **消息详情** 和 **好友头像**。  
-- **插件作用范围**：  
-  - 当前效果 **仅在微信内有效**，尚未支持系统级通知扩展。  
-
----
-
-## **开发进度**  
+## 开发进度  
 - **当前状态**：开发中 ✅  
-- **目前支持**：  
-  - 微信电话通知（灵动岛效果）。  
-  - 非灵动岛消息弹窗（存在已知问题）。  
-- **未来优化**：  
-  - 修复消息弹窗的 **消息详情** 和 **好友头像** 显示问题。  
-  - 扩展插件适配到系统级通知，支持全局生效。  
+- **已实现**：  
+  - 微信电话通知灵动岛效果。  
+  - 非灵动岛设备消息弹窗（部分功能待完善）。  
+- **待优化**：  
+  - 消息弹窗支持显示 **好友头像** 和 **消息详情**。  
+  - 系统级扩展，支持全局生效。  
 
----
-
-## **Telegram 群组**  
-欢迎加入我们的 Telegram 社区，一起交流和反馈问题：  
-👉 [**Hyangu Chat**](https://t.me/HyanguChat)  
-
----
-
-## **免责声明**  
-本插件仅供学习和技术交流，请勿用于非法用途！  
+## 免责声明  
+本插件仅供学习和技术交流，请勿用于任何非法用途！  
 
 ---  
 
-© 2025 Hyangu | 专注于优雅的微信插件开发  
+© 2025 Hyangu | 热爱开发，只为兴趣而生  
